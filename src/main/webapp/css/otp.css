@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* style.css */
+.text-center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    height: 100vh; /* Chiều cao của màn hình */
+}
+
+/* Căn giữa dãy nhập OTP */
+.inputs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Đảm bảo nút button nằm ở giữa màn hình */
+.col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Căn giữa button theo chiều dọc */
+    height: 100%; /* Chiều cao tối đa để căn giữa button */
+}
+
+/* Căn chỉnh button */
+.button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+
+}
+
+/* Điều chỉnh khoảng cách giữa các input */
+.input {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid red;
+    border-radius: 5px;
+}

@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.order-container {
+    width: 65%;
+    margin: 30px auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.shop-info {
+    display: flex;
+    align-items: center; /* Căn chỉnh dọc theo trục giữa */
+    gap: 10px; /* Khoảng cách giữa các phần tử */
+}
+
+.favorite, .chat-btn, .shop-btn {
+    padding: 5px 10px; /* Điều chỉnh kích thước nút cho phù hợp */
+    font-size: 12px; /* Giảm kích thước chữ nếu cần */
+}
+
+.shop-name {
+    font-weight: bold; /* Định dạng tên shop */
+    margin-left: 10px; /* Tạo khoảng cách giữa nút "Yêu thích" và tên shop */
+}
+
+.order-status {
+    margin-left: auto; /* Đẩy phần tử này sang phía bên phải */
+    text-align: right;
+    color: green;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.favorite, .chat-btn, .shop-btn {
+    background-color: #ff5722; /* Màu nền */
+    color: white; /* Màu chữ */
+    padding: 5px 10px; /* Giảm padding để nút nhỏ gọn */
+    font-size: 12px; /* Giảm kích thước chữ */
+    border-radius: 4px; /* Bo góc */
+    border: none; /* Không có viền */
+    cursor: pointer; /* Con trỏ thay đổi khi di chuột */
+    transition: background-color 0.3s ease; /* Hiệu ứng mượt khi hover */
+    display: inline-block; /* Giữ các nút inline với các phần tử khác */
+    line-height: 1.2; /* Điều chỉnh chiều cao dòng để cân đối hơn */
+}
+
+.favorite:hover, .chat-btn:hover, .shop-btn:hover {
+    background-color: #ff3d00; /* Màu khi hover */
+}
+
+
+.shop-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.order-status {
+    color: green;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.product-image {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.product-details {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.product-details h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.category, .quantity {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.return-policy {
+    background-color: #4caf50; /* Màu nền */
+    color: white; /* Màu chữ */
+    border: none; /* Không có viền */
+    padding: 5px 10px; /* Giảm padding để nút nhỏ gọn */
+    font-size: 12px; /* Giảm kích thước chữ */
+    border-radius: 4px; /* Bo góc */
+    cursor: pointer; /* Thay đổi con trỏ khi di chuột qua */
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Giữ nút inline với các phần tử khác */
+    line-height: 1.2; /* Căn chỉnh chiều cao dòng hợp lý */
+}
+
+.return-policy:hover {
+    background-color: #388e3c; /* Hiệu ứng hover */
+}
+
+.product-price {
+    text-align: right;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+}
+
+.discounted-price {
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.total-price {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Căn chỉnh dòng chữ và các nút hành động */
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.additional-info {
+    font-size: 14px;
+    color: #777;
+}
+
+.additional-info p {
+    margin: 5px 0;
+}
+
+.additional-info span {
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.review-btn, .contact-seller-btn, .buy-again-btn {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.review-btn:hover, .contact-seller-btn:hover, .buy-again-btn:hover {
+	color: white;
+    background-color: #ff3d00;
+    transform: scale(1.05);
+}
+
+

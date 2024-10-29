@@ -1,0 +1,56 @@
+- Thoi trang
+	mã
+	tên 
+	thương hiệu
+	năm sản xuất
+	gia nhap
+	giá bán
+	số lượng
+	thể loại
+	mô tả
+	
+- thương hiệu
+	mã thương hiệu
+	tên
+	sản phẩm chính
+	quốc gia
+
+- thể loại
+	mã
+	tên thể loại
+	
+- khách hàng
+	mã
+	ten khach hang
+	mat khau
+	tên đăng nhập
+	giới tính
+	địa nhỉ
+	ngày sinh
+	số điện thoại
+	email
+	đăng kí nhận bản tin email  
+	
+- đơn hàng
+	mã
+	khách hàng
+	địa chỉ người mua
+	địa chỉ nhận hàng
+	trạng thái: mới tạo, đnag xử lý, đơn giao hàng, đã giao thành công...
+	hình thức thanh toán
+	số tiền đã thanh toán
+	số tiền còn thiếu
+	ngày đặt hàng
+	ngày giao hàng
+	
+- chi tiết đơn hàng
+	mã
+	đơn hàng
+	mã sản phẩm
+	số lượng
+	giá bán
+	giảm giá
+	thue VAT
+	
+
+	

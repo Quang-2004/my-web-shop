@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.avatar-container {
+    position: relative;
+   	display: flex;
+   	margin-right: 50px;
+}
+
+.avatar {
+    width: 40px;  /* Kích thước của ảnh đại diện */
+    height: 40px; /* Kích thước của ảnh đại diện */
+    border-radius: 50%; /* Làm cho ảnh thành hình tròn */
+    cursor: pointer;
+    object-fit: cover; /* Đảm bảo ảnh không bị méo khi thay đổi kích thước */
+    
+}
+
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 50px; /* Vị trí hiển thị menu */
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.menu a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    background-color: #f1f1f1;
+}
